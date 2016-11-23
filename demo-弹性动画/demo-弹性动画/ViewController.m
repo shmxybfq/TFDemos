@@ -62,54 +62,6 @@
     
 }
 
-CATransform3D{
-    rotation旋转
-    transform.rotation.x
-    transform.rotation.y
-    transform.rotation.z
-
-    scale缩放
-    transform.scale.x
-    transform.scale.y
-    transform.scale.z
-
-    translation平移
-    transform.translation.x
-    transform.translation.y
-    transform.translation.z
-}
-
-CGPoint{
-    position
-    position.x
-    position.y
-}
-
-CGRect{
-    bounds
-    bounds.size
-    bounds.size.width
-    bounds.size.height
-
-    bounds.origin
-    bounds.origin.x
-    bounds.origin.y
-}
-
-property{
-    opacity
-    backgroundColor
-    cornerRadius
-    borderWidth
-    contents
-    
-    Shadow{
-        shadowColor
-        shadowOffset
-        shadowOpacity
-        shadowRadius
-    }
-}
 
 
 -(void)animationBegin:(UIButton *)btn{
