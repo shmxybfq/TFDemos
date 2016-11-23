@@ -134,6 +134,9 @@ static NSUInteger change1_2Index = 0;
                         @(UIViewAnimationOptionOverrideInheritedOptions),//不继承父动画设置或动画类型。
                         ];
     
+//    CASpringAnimation
+//    CASpringAnimation
+    
     
     if (sigle) {
         
