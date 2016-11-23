@@ -2454,6 +2454,7 @@
 				CD08EE1E1DE29B8C0085C1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

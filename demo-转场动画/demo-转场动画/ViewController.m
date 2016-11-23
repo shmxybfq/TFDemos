@@ -160,6 +160,7 @@ static NSUInteger change1_2Index = 0;
                             
                             
                             
+                            
                         } completion:nil];
         NSLog(@"动画:%s:%@:%@:%@",__func__,@(change1_0Index),@(change1_1Index),@(change1_2Index));
         
@@ -229,7 +230,7 @@ static NSUInteger change3_1Index = 0;
      */
     CATransition *transition = [CATransition animation];
     
-    transition.duration = 2.0;
+    transition.duration = 0.25;
     
     NSArray *type_array = @[
                         //系统提供的动画
@@ -263,8 +264,8 @@ static NSUInteger change3_1Index = 0;
     /**
      *  设置转场动画的开始和结束百分比
      */
-    transition.startProgress = 0.5;
-    transition.endProgress = 0.7;
+    transition.startProgress = 0.0;
+    transition.endProgress = 1.0;
     
     
     if (self.demoView1.tag == 0) {
