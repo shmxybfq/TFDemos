@@ -97,9 +97,9 @@
 
 [self.demoView2 startAnimationFromFrame:CGRectMake(10, 300, 100, 100)
                                 toFrame:CGRectMake(10, 300, 300, 100)
-                               duration:0.5
-                             shakeTimes:5
-                         stretchPercent:0.3
+                               duration:0.9
+                             shakeTimes:10
+                         stretchPercent:0.6
                              completion:^(BOOL finished) {
                                  NSLog(@"======over======:%@",self.demoView1);
                              }];
