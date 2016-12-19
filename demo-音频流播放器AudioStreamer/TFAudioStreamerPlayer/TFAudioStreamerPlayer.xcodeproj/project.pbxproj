@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861B838A1A00985700D5D558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83891A00985700D5D558 /* Foundation.framework */; };
+		861B838C1A00985700D5D558 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B838B1A00985700D5D558 /* CoreGraphics.framework */; };
+		861B838E1A00985700D5D558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B838D1A00985700D5D558 /* UIKit.framework */; };
+		861B83941A00985700D5D558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 861B83921A00985700D5D558 /* InfoPlist.strings */; };
+		861B83961A00985700D5D558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83951A00985700D5D558 /* main.m */; };
+		861B839A1A00985700D5D558 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83991A00985700D5D558 /* TFAppDelegate.m */; };
+		861B839D1A00985700D5D558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861B839B1A00985700D5D558 /* Main.storyboard */; };
+		861B83A01A00985700D5D558 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B839F1A00985700D5D558 /* TFViewController.m */; };
+		861B83A21A00985700D5D558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861B83A11A00985700D5D558 /* Images.xcassets */; };
+		861B83A91A00985700D5D558 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83A81A00985700D5D558 /* XCTest.framework */; };
+		861B83AA1A00985700D5D558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83891A00985700D5D558 /* Foundation.framework */; };
+		861B83AB1A00985700D5D558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B838D1A00985700D5D558 /* UIKit.framework */; };
+		861B83B31A00985700D5D558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 861B83B11A00985700D5D558 /* InfoPlist.strings */; };
+		861B83B51A00985700D5D558 /* TFAudioStreamerPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83B41A00985700D5D558 /* TFAudioStreamerPlayerTests.m */; };
+		861B83C41A0098BC00D5D558 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83C11A0098BC00D5D558 /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		861B83C51A0098BC00D5D558 /* TFAudioStreamerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83C31A0098BC00D5D558 /* TFAudioStreamerPlayer.m */; };
+		861B83C71A009AD200D5D558 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83C61A009AD200D5D558 /* CFNetwork.framework */; };
+		861B83C91A009ADB00D5D558 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83C81A009ADB00D5D558 /* AudioToolbox.framework */; };
+		861B83CB1A009AE600D5D558 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83CA1A009AE600D5D558 /* MediaPlayer.framework */; };
+		861B83CD1A00B15000D5D558 /* sygy-9401359568.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 861B83CC1A00B15000D5D558 /* sygy-9401359568.jpg */; };
+		86AEE1E81A3695FA00800EAD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AEE1E71A3695FA00800EAD /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		861B83AC1A00985700D5D558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861B837E1A00985700D5D558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861B83851A00985700D5D558;
+			remoteInfo = TFAudioStreamerPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		861B83861A00985700D5D558 /* TFAudioStreamerPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFAudioStreamerPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861B83891A00985700D5D558 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		861B838B1A00985700D5D558 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		861B838D1A00985700D5D558 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		861B83911A00985700D5D558 /* TFAudioStreamerPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFAudioStreamerPlayer-Info.plist"; sourceTree = "<group>"; };
+		861B83931A00985700D5D558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		861B83951A00985700D5D558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		861B83971A00985700D5D558 /* TFAudioStreamerPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFAudioStreamerPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		861B83981A00985700D5D558 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		861B83991A00985700D5D558 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		861B839C1A00985700D5D558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861B839E1A00985700D5D558 /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		861B839F1A00985700D5D558 /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		861B83A11A00985700D5D558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		861B83A71A00985700D5D558 /* TFAudioStreamerPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFAudioStreamerPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		861B83A81A00985700D5D558 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		861B83B01A00985700D5D558 /* TFAudioStreamerPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFAudioStreamerPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		861B83B21A00985700D5D558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		861B83B41A00985700D5D558 /* TFAudioStreamerPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAudioStreamerPlayerTests.m; sourceTree = "<group>"; };
+		861B83C01A0098BC00D5D558 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		861B83C11A0098BC00D5D558 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		861B83C21A0098BC00D5D558 /* TFAudioStreamerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAudioStreamerPlayer.h; sourceTree = "<group>"; };
+		861B83C31A0098BC00D5D558 /* TFAudioStreamerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAudioStreamerPlayer.m; sourceTree = "<group>"; };
+		861B83C61A009AD200D5D558 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		861B83C81A009ADB00D5D558 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		861B83CA1A009AE600D5D558 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		861B83CC1A00B15000D5D558 /* sygy-9401359568.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sygy-9401359568.jpg"; sourceTree = "<group>"; };
+		86AEE1E71A3695FA00800EAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861B83831A00985700D5D558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83C71A009AD200D5D558 /* CFNetwork.framework in Frameworks */,
+				86AEE1E81A3695FA00800EAD /* SystemConfiguration.framework in Frameworks */,
+				861B83CB1A009AE600D5D558 /* MediaPlayer.framework in Frameworks */,
+				861B83C91A009ADB00D5D558 /* AudioToolbox.framework in Frameworks */,
+				861B838C1A00985700D5D558 /* CoreGraphics.framework in Frameworks */,
+				861B838E1A00985700D5D558 /* UIKit.framework in Frameworks */,
+				861B838A1A00985700D5D558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83A41A00985700D5D558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83A91A00985700D5D558 /* XCTest.framework in Frameworks */,
+				861B83AB1A00985700D5D558 /* UIKit.framework in Frameworks */,
+				861B83AA1A00985700D5D558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861B837D1A00985700D5D558 = {
+			isa = PBXGroup;
+			children = (
+				861B838F1A00985700D5D558 /* TFAudioStreamerPlayer */,
+				861B83AE1A00985700D5D558 /* TFAudioStreamerPlayerTests */,
+				861B83881A00985700D5D558 /* Frameworks */,
+				861B83871A00985700D5D558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861B83871A00985700D5D558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861B83861A00985700D5D558 /* TFAudioStreamerPlayer.app */,
+				861B83A71A00985700D5D558 /* TFAudioStreamerPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861B83881A00985700D5D558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AEE1E71A3695FA00800EAD /* SystemConfiguration.framework */,
+				861B83CA1A009AE600D5D558 /* MediaPlayer.framework */,
+				861B83C81A009ADB00D5D558 /* AudioToolbox.framework */,
+				861B83C61A009AD200D5D558 /* CFNetwork.framework */,
+				861B83891A00985700D5D558 /* Foundation.framework */,
+				861B838B1A00985700D5D558 /* CoreGraphics.framework */,
+				861B838D1A00985700D5D558 /* UIKit.framework */,
+				861B83A81A00985700D5D558 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861B838F1A00985700D5D558 /* TFAudioStreamerPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				861B83CC1A00B15000D5D558 /* sygy-9401359568.jpg */,
+				861B83981A00985700D5D558 /* TFAppDelegate.h */,
+				861B83991A00985700D5D558 /* TFAppDelegate.m */,
+				861B839B1A00985700D5D558 /* Main.storyboard */,
+				861B839E1A00985700D5D558 /* TFViewController.h */,
+				861B839F1A00985700D5D558 /* TFViewController.m */,
+				861B83BE1A0098BC00D5D558 /* TFAudioStreamerPlayer */,
+				861B83A11A00985700D5D558 /* Images.xcassets */,
+				861B83901A00985700D5D558 /* Supporting Files */,
+			);
+			path = TFAudioStreamerPlayer;
+			sourceTree = "<group>";
+		};
+		861B83901A00985700D5D558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861B83911A00985700D5D558 /* TFAudioStreamerPlayer-Info.plist */,
+				861B83921A00985700D5D558 /* InfoPlist.strings */,
+				861B83951A00985700D5D558 /* main.m */,
+				861B83971A00985700D5D558 /* TFAudioStreamerPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861B83AE1A00985700D5D558 /* TFAudioStreamerPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				861B83B41A00985700D5D558 /* TFAudioStreamerPlayerTests.m */,
+				861B83AF1A00985700D5D558 /* Supporting Files */,
+			);
+			path = TFAudioStreamerPlayerTests;
+			sourceTree = "<group>";
+		};
+		861B83AF1A00985700D5D558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861B83B01A00985700D5D558 /* TFAudioStreamerPlayerTests-Info.plist */,
+				861B83B11A00985700D5D558 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861B83BE1A0098BC00D5D558 /* TFAudioStreamerPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				861B83BF1A0098BC00D5D558 /* AudioStreamer */,
+				861B83C21A0098BC00D5D558 /* TFAudioStreamerPlayer.h */,
+				861B83C31A0098BC00D5D558 /* TFAudioStreamerPlayer.m */,
+			);
+			path = TFAudioStreamerPlayer;
+			sourceTree = "<group>";
+		};
+		861B83BF1A0098BC00D5D558 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				861B83C01A0098BC00D5D558 /* AudioStreamer.h */,
+				861B83C11A0098BC00D5D558 /* AudioStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861B83851A00985700D5D558 /* TFAudioStreamerPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861B83B81A00985700D5D558 /* Build configuration list for PBXNativeTarget "TFAudioStreamerPlayer" */;
+			buildPhases = (
+				861B83821A00985700D5D558 /* Sources */,
+				861B83831A00985700D5D558 /* Frameworks */,
+				861B83841A00985700D5D558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFAudioStreamerPlayer;
+			productName = TFAudioStreamerPlayer;
+			productReference = 861B83861A00985700D5D558 /* TFAudioStreamerPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		861B83A61A00985700D5D558 /* TFAudioStreamerPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861B83BB1A00985700D5D558 /* Build configuration list for PBXNativeTarget "TFAudioStreamerPlayerTests" */;
+			buildPhases = (
+				861B83A31A00985700D5D558 /* Sources */,
+				861B83A41A00985700D5D558 /* Frameworks */,
+				861B83A51A00985700D5D558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				861B83AD1A00985700D5D558 /* PBXTargetDependency */,
+			);
+			name = TFAudioStreamerPlayerTests;
+			productName = TFAudioStreamerPlayerTests;
+			productReference = 861B83A71A00985700D5D558 /* TFAudioStreamerPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861B837E1A00985700D5D558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hyacinth.TaskTinkle;
+				TargetAttributes = {
+					861B83A61A00985700D5D558 = {
+						TestTargetID = 861B83851A00985700D5D558;
+					};
+				};
+			};
+			buildConfigurationList = 861B83811A00985700D5D558 /* Build configuration list for PBXProject "TFAudioStreamerPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861B837D1A00985700D5D558;
+			productRefGroup = 861B83871A00985700D5D558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861B83851A00985700D5D558 /* TFAudioStreamerPlayer */,
+				861B83A61A00985700D5D558 /* TFAudioStreamerPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861B83841A00985700D5D558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83A21A00985700D5D558 /* Images.xcassets in Resources */,
+				861B83CD1A00B15000D5D558 /* sygy-9401359568.jpg in Resources */,
+				861B83941A00985700D5D558 /* InfoPlist.strings in Resources */,
+				861B839D1A00985700D5D558 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83A51A00985700D5D558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83B31A00985700D5D558 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861B83821A00985700D5D558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83A01A00985700D5D558 /* TFViewController.m in Sources */,
+				861B839A1A00985700D5D558 /* TFAppDelegate.m in Sources */,
+				861B83C51A0098BC00D5D558 /* TFAudioStreamerPlayer.m in Sources */,
+				861B83961A00985700D5D558 /* main.m in Sources */,
+				861B83C41A0098BC00D5D558 /* AudioStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83A31A00985700D5D558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83B51A00985700D5D558 /* TFAudioStreamerPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		861B83AD1A00985700D5D558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861B83851A00985700D5D558 /* TFAudioStreamerPlayer */;
+			targetProxy = 861B83AC1A00985700D5D558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		861B83921A00985700D5D558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B83931A00985700D5D558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		861B839B1A00985700D5D558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B839C1A00985700D5D558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		861B83B11A00985700D5D558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B83B21A00985700D5D558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		861B83B61A00985700D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		861B83B71A00985700D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861B83B91A00985700D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		861B83BA1A00985700D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		861B83BC1A00985700D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TFAudioStreamerPlayer.app/TFAudioStreamerPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TFAudioStreamerPlayerTests/TFAudioStreamerPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		861B83BD1A00985700D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TFAudioStreamerPlayer.app/TFAudioStreamerPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFAudioStreamerPlayer/TFAudioStreamerPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFAudioStreamerPlayerTests/TFAudioStreamerPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861B83811A00985700D5D558 /* Build configuration list for PBXProject "TFAudioStreamerPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B83B61A00985700D5D558 /* Debug */,
+				861B83B71A00985700D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861B83B81A00985700D5D558 /* Build configuration list for PBXNativeTarget "TFAudioStreamerPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B83B91A00985700D5D558 /* Debug */,
+				861B83BA1A00985700D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861B83BB1A00985700D5D558 /* Build configuration list for PBXNativeTarget "TFAudioStreamerPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B83BC1A00985700D5D558 /* Debug */,
+				861B83BD1A00985700D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861B837E1A00985700D5D558 /* Project object */;
+}

@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861B833D1A0082F400D5D558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B833C1A0082F400D5D558 /* Foundation.framework */; };
+		861B833F1A0082F400D5D558 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B833E1A0082F400D5D558 /* CoreGraphics.framework */; };
+		861B83411A0082F400D5D558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83401A0082F400D5D558 /* UIKit.framework */; };
+		861B83471A0082F400D5D558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 861B83451A0082F400D5D558 /* InfoPlist.strings */; };
+		861B83491A0082F400D5D558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83481A0082F400D5D558 /* main.m */; };
+		861B834D1A0082F400D5D558 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B834C1A0082F400D5D558 /* TFAppDelegate.m */; };
+		861B83501A0082F400D5D558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861B834E1A0082F400D5D558 /* Main.storyboard */; };
+		861B83531A0082F400D5D558 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83521A0082F400D5D558 /* TFViewController.m */; };
+		861B83551A0082F400D5D558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861B83541A0082F400D5D558 /* Images.xcassets */; };
+		861B835C1A0082F400D5D558 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B835B1A0082F400D5D558 /* XCTest.framework */; };
+		861B835D1A0082F400D5D558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B833C1A0082F400D5D558 /* Foundation.framework */; };
+		861B835E1A0082F400D5D558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83401A0082F400D5D558 /* UIKit.framework */; };
+		861B83661A0082F400D5D558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 861B83641A0082F400D5D558 /* InfoPlist.strings */; };
+		861B83681A0082F400D5D558 /* TFIpodPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83671A0082F400D5D558 /* TFIpodPlayerTests.m */; };
+		861B83761A00857900D5D558 /* TFIpodMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 861B83751A00857900D5D558 /* TFIpodMusicPlayer.m */; };
+		861B83781A0085F400D5D558 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83771A0085F400D5D558 /* MediaPlayer.framework */; };
+		861B837A1A00877500D5D558 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861B83791A00877500D5D558 /* AVFoundation.framework */; };
+		861B837C1A00944C00D5D558 /* sygy-9401359568.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 861B837B1A00944C00D5D558 /* sygy-9401359568.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		861B835F1A0082F400D5D558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861B83311A0082F400D5D558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861B83381A0082F400D5D558;
+			remoteInfo = TFIpodPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		861B83391A0082F400D5D558 /* TFIpodPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFIpodPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861B833C1A0082F400D5D558 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		861B833E1A0082F400D5D558 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		861B83401A0082F400D5D558 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		861B83441A0082F400D5D558 /* TFIpodPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFIpodPlayer-Info.plist"; sourceTree = "<group>"; };
+		861B83461A0082F400D5D558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		861B83481A0082F400D5D558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		861B834A1A0082F400D5D558 /* TFIpodPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFIpodPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		861B834B1A0082F400D5D558 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		861B834C1A0082F400D5D558 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		861B834F1A0082F400D5D558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861B83511A0082F400D5D558 /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		861B83521A0082F400D5D558 /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		861B83541A0082F400D5D558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		861B835A1A0082F400D5D558 /* TFIpodPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFIpodPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		861B835B1A0082F400D5D558 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		861B83631A0082F400D5D558 /* TFIpodPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFIpodPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		861B83651A0082F400D5D558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		861B83671A0082F400D5D558 /* TFIpodPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFIpodPlayerTests.m; sourceTree = "<group>"; };
+		861B83741A00857900D5D558 /* TFIpodMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFIpodMusicPlayer.h; sourceTree = "<group>"; };
+		861B83751A00857900D5D558 /* TFIpodMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFIpodMusicPlayer.m; sourceTree = "<group>"; };
+		861B83771A0085F400D5D558 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		861B83791A00877500D5D558 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		861B837B1A00944C00D5D558 /* sygy-9401359568.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sygy-9401359568.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861B83361A0082F400D5D558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B837A1A00877500D5D558 /* AVFoundation.framework in Frameworks */,
+				861B83781A0085F400D5D558 /* MediaPlayer.framework in Frameworks */,
+				861B833F1A0082F400D5D558 /* CoreGraphics.framework in Frameworks */,
+				861B83411A0082F400D5D558 /* UIKit.framework in Frameworks */,
+				861B833D1A0082F400D5D558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83571A0082F400D5D558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B835C1A0082F400D5D558 /* XCTest.framework in Frameworks */,
+				861B835E1A0082F400D5D558 /* UIKit.framework in Frameworks */,
+				861B835D1A0082F400D5D558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861B83301A0082F400D5D558 = {
+			isa = PBXGroup;
+			children = (
+				861B83421A0082F400D5D558 /* TFIpodPlayer */,
+				861B83611A0082F400D5D558 /* TFIpodPlayerTests */,
+				861B833B1A0082F400D5D558 /* Frameworks */,
+				861B833A1A0082F400D5D558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861B833A1A0082F400D5D558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861B83391A0082F400D5D558 /* TFIpodPlayer.app */,
+				861B835A1A0082F400D5D558 /* TFIpodPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861B833B1A0082F400D5D558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861B83791A00877500D5D558 /* AVFoundation.framework */,
+				861B83771A0085F400D5D558 /* MediaPlayer.framework */,
+				861B833C1A0082F400D5D558 /* Foundation.framework */,
+				861B833E1A0082F400D5D558 /* CoreGraphics.framework */,
+				861B83401A0082F400D5D558 /* UIKit.framework */,
+				861B835B1A0082F400D5D558 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861B83421A0082F400D5D558 /* TFIpodPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				861B837B1A00944C00D5D558 /* sygy-9401359568.jpg */,
+				861B834B1A0082F400D5D558 /* TFAppDelegate.h */,
+				861B834C1A0082F400D5D558 /* TFAppDelegate.m */,
+				861B834E1A0082F400D5D558 /* Main.storyboard */,
+				861B83511A0082F400D5D558 /* TFViewController.h */,
+				861B83521A0082F400D5D558 /* TFViewController.m */,
+				861B83741A00857900D5D558 /* TFIpodMusicPlayer.h */,
+				861B83751A00857900D5D558 /* TFIpodMusicPlayer.m */,
+				861B83541A0082F400D5D558 /* Images.xcassets */,
+				861B83431A0082F400D5D558 /* Supporting Files */,
+			);
+			path = TFIpodPlayer;
+			sourceTree = "<group>";
+		};
+		861B83431A0082F400D5D558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861B83441A0082F400D5D558 /* TFIpodPlayer-Info.plist */,
+				861B83451A0082F400D5D558 /* InfoPlist.strings */,
+				861B83481A0082F400D5D558 /* main.m */,
+				861B834A1A0082F400D5D558 /* TFIpodPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861B83611A0082F400D5D558 /* TFIpodPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				861B83671A0082F400D5D558 /* TFIpodPlayerTests.m */,
+				861B83621A0082F400D5D558 /* Supporting Files */,
+			);
+			path = TFIpodPlayerTests;
+			sourceTree = "<group>";
+		};
+		861B83621A0082F400D5D558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861B83631A0082F400D5D558 /* TFIpodPlayerTests-Info.plist */,
+				861B83641A0082F400D5D558 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861B83381A0082F400D5D558 /* TFIpodPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861B836B1A0082F400D5D558 /* Build configuration list for PBXNativeTarget "TFIpodPlayer" */;
+			buildPhases = (
+				861B83351A0082F400D5D558 /* Sources */,
+				861B83361A0082F400D5D558 /* Frameworks */,
+				861B83371A0082F400D5D558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFIpodPlayer;
+			productName = TFIpodPlayer;
+			productReference = 861B83391A0082F400D5D558 /* TFIpodPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		861B83591A0082F400D5D558 /* TFIpodPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861B836E1A0082F400D5D558 /* Build configuration list for PBXNativeTarget "TFIpodPlayerTests" */;
+			buildPhases = (
+				861B83561A0082F400D5D558 /* Sources */,
+				861B83571A0082F400D5D558 /* Frameworks */,
+				861B83581A0082F400D5D558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				861B83601A0082F400D5D558 /* PBXTargetDependency */,
+			);
+			name = TFIpodPlayerTests;
+			productName = TFIpodPlayerTests;
+			productReference = 861B835A1A0082F400D5D558 /* TFIpodPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861B83311A0082F400D5D558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hyacinth.TaskTinkle;
+				TargetAttributes = {
+					861B83591A0082F400D5D558 = {
+						TestTargetID = 861B83381A0082F400D5D558;
+					};
+				};
+			};
+			buildConfigurationList = 861B83341A0082F400D5D558 /* Build configuration list for PBXProject "TFIpodPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861B83301A0082F400D5D558;
+			productRefGroup = 861B833A1A0082F400D5D558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861B83381A0082F400D5D558 /* TFIpodPlayer */,
+				861B83591A0082F400D5D558 /* TFIpodPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861B83371A0082F400D5D558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83551A0082F400D5D558 /* Images.xcassets in Resources */,
+				861B837C1A00944C00D5D558 /* sygy-9401359568.jpg in Resources */,
+				861B83471A0082F400D5D558 /* InfoPlist.strings in Resources */,
+				861B83501A0082F400D5D558 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83581A0082F400D5D558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83661A0082F400D5D558 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861B83351A0082F400D5D558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83531A0082F400D5D558 /* TFViewController.m in Sources */,
+				861B834D1A0082F400D5D558 /* TFAppDelegate.m in Sources */,
+				861B83761A00857900D5D558 /* TFIpodMusicPlayer.m in Sources */,
+				861B83491A0082F400D5D558 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		861B83561A0082F400D5D558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861B83681A0082F400D5D558 /* TFIpodPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		861B83601A0082F400D5D558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861B83381A0082F400D5D558 /* TFIpodPlayer */;
+			targetProxy = 861B835F1A0082F400D5D558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		861B83451A0082F400D5D558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B83461A0082F400D5D558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		861B834E1A0082F400D5D558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B834F1A0082F400D5D558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		861B83641A0082F400D5D558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861B83651A0082F400D5D558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		861B83691A0082F400D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		861B836A1A0082F400D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861B836C1A0082F400D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFIpodPlayer/TFIpodPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFIpodPlayer/TFIpodPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		861B836D1A0082F400D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFIpodPlayer/TFIpodPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFIpodPlayer/TFIpodPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		861B836F1A0082F400D5D558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TFIpodPlayer.app/TFIpodPlayer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFIpodPlayer/TFIpodPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TFIpodPlayerTests/TFIpodPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		861B83701A0082F400D5D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TFIpodPlayer.app/TFIpodPlayer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nan Zhang (K2Y9DSX33E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFIpodPlayer/TFIpodPlayer-Prefix.pch";
+				INFOPLIST_FILE = "TFIpodPlayerTests/TFIpodPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6BB6C41A-E8E6-4D7D-91A0-B91EA4372660";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861B83341A0082F400D5D558 /* Build configuration list for PBXProject "TFIpodPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B83691A0082F400D5D558 /* Debug */,
+				861B836A1A0082F400D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861B836B1A0082F400D5D558 /* Build configuration list for PBXNativeTarget "TFIpodPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B836C1A0082F400D5D558 /* Debug */,
+				861B836D1A0082F400D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		861B836E1A0082F400D5D558 /* Build configuration list for PBXNativeTarget "TFIpodPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B836F1A0082F400D5D558 /* Debug */,
+				861B83701A0082F400D5D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861B83311A0082F400D5D558 /* Project object */;
+}
