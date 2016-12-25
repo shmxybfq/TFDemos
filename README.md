@@ -1,8 +1,7 @@
 # TFDemos
 
-博客中涉及的demo和平时写的demo.<br>
-**(1)demo中写的功能有些是可以拖走就用,有些不可以,可能还存在一些bug,所以这里demo可作为学习和参考之用.**<br>
-**(2)不是所有的demo都有效果图~**<br>
+**(1)demo中写的功能有些是可以拖走就用,有些不可以,可能还存在一些bug,作为学习和参考.**<br>
+**(2)有些demo没有效果图~**<br>
 我的简书:[抱紧我的小鲤鱼](http://www.jianshu.com/users/8c1cc9143ec6/latest_articles)
 ___
 
