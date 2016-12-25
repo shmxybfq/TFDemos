@@ -23,8 +23,6 @@ ___
 <div>
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFEasyCoder_Source/demo-弹性动画-01.gif" width="15%" height="15%">
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFEasyCoder_Source/demo-弹性动画-02.gif" width="15%" height="15%">
-<img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFEasyCoder_Source/demo-转场动画-01.gif" width="15%" height="15%">
-<img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFEasyCoder_Source/demo-转场动画-02.gif" width="15%" height="15%">
 </div>
 
 ######demo-导航栏背景渐变(简单版)<br>
