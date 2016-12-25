@@ -46,3 +46,18 @@ ___
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFEasyCoder_Source/demo-粒子动画.gif" width="15%" height="15%">
 </div><br>
 
+###demo-动画增长条<br>
+<div>
+<img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-动画增长条.gif" width="15%" height="15%">
+</div><br>
+
+###demo-UICollectionView-coverflow效果1<br>
+<div>
+<img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-UICollectionView-coverflow效果1.gif" width="15%" height="15%">
+</div><br>
+
+###demo-UIScrollView实现coverflow简单效果无限循环<br>
+<div>
+<img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-UIScrollView实现coverflow简单效果无限循环.gif" width="15%" height="15%">
+</div><br>
+
