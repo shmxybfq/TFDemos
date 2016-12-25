@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="B0_CollectionVI" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F37-7L-0pO">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="F37-7L-0pO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8dR-zo-8qP"/>
+                <constraint firstAttribute="bottom" secondItem="F37-7L-0pO" secondAttribute="bottom" id="NFr-FH-aDR"/>
+                <constraint firstAttribute="trailing" secondItem="F37-7L-0pO" secondAttribute="trailing" id="W9p-4m-BZx"/>
+                <constraint firstItem="F37-7L-0pO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xMy-YQ-GPU"/>
+            </constraints>
+            <size key="customSize" width="114" height="100"/>
+            <connections>
+                <outlet property="imageView" destination="F37-7L-0pO" id="TI5-8w-sYF"/>
+            </connections>
+            <point key="canvasLocation" x="438" y="468"/>
+        </collectionViewCell>
+    </objects>
+</document>
