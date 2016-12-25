@@ -10,21 +10,29 @@
 
 @interface ViewController ()
 @property (nonatomic,  copy)NSString *suanshi;
+@property (weak, nonatomic) IBOutlet UITextField *textField1;
+@property (weak, nonatomic) IBOutlet UITextField *textField2;
 
 @end
 
 @implementation ViewController
+- (IBAction)buttonAction:(id)sender {
+    
+    
+    long double result = [self base3ResultWithFormulaString:self.suanshi];
+    self.textField2.text = [NSString stringWithFormat:@"%Lf",result];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.suanshi =@"1+2*((2+3.14*4+5)/2*3-2)+3*6";
+    self.textField1.text = self.suanshi;
 //    self.suanshi =@"1.55+2-3.1415926*(5-6*7.5/8)*2+1";
 //    self.suanshi =@"1.5+2-3.5*5-6*7.5/8*2+1";
 //    self.suanshi =@"1+0.5/3*2+((2-12)*(2+1)-(3*5))";//43.66
 //    self.suanshi =@"100+10+9*3/2+1*(9-8)+3";//127.5
-    
-    [self base3ResultWithFormulaString:self.suanshi];
+  
 }
 
 
