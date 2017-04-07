@@ -40,6 +40,12 @@ ___
 ######demo-UICollectionView-圆盘2<br>
 ######demo-UICollectionView-瀑布流3<br>
 <div>
+
+
+##关于作者(About me)
+* GitHub:[shmxybfq](https://github.com/shmxybfq "shmxybfq's github")
+* SinaBlog:[守候ztf](http://blog.sina.com.cn/u/3481024997 "shmxybfq's sinablog")
+* 简书:[抱紧我的小鲤鱼](http://www.jianshu.com/u/8c1cc9143ec6)
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-UICollectionView-coverflow效果1.gif" width="15%" height="15%">
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-UICollectionView-coverflow效果2.gif" width="15%" height="15%">
 <img src="https://github.com/shmxybfq/TFProjectsSource/blob/master/TFDemos_Source/demo-UICollectionView-圆盘2.gif" width="15%" height="15%">
