@@ -42,7 +42,7 @@ ___
 <div>
 <img src="https://github.com/shmxybfq/TFDemos/blob/master/TFDemos_Source/demo-UICollectionView-coverflow效果1.gif" width="15%" height="15%">
 <img src="https://github.com/shmxybfq/TFDemos/blob/master/TFDemos_Source/demo-UICollectionView-coverflow效果2.gif" width="15%" height="15%">
-<img src="https://github.com/shmxybfq/TFDemos/blob/master/TFDemos_Source/demo-UICollectionView-圆盘2.gif" width="15%" height="15%">
+<img src="https://github.com/shmxybfq/TFDemos/blob/master/TFDemos_Source/demo-UICollectionView-圆盘2.jpg" width="15%" height="15%">
 <img src="https://github.com/shmxybfq/TFDemos/blob/master/TFDemos_Source/demo-UICollectionView-瀑布流3.gif" width="15%" height="15%">
 </div>
 
